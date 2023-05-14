@@ -1,0 +1,21 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: auto, auto;
+    padding: 32px 20%;
+}
+
+.header-title {
+    grid-column: span 2;
+    margin: 0 auto;
+}
+
+.header-button {
+    margin: 0 auto;
+}
+
+.header-click {
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}

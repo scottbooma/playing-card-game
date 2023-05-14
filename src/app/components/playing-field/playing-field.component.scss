@@ -1,0 +1,11 @@
+.playing-grid {
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em 5em;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 0 20%;
+    margin: 0 auto;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}

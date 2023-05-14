@@ -1,0 +1,20 @@
+.card {
+    margin: 4px auto;
+    border-radius: 2px;
+    height: 6em;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 219, 126);
+    cursor: pointer;
+}
+
+.card-text {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.selected-card {
+    background-color: aquamarine;
+}
